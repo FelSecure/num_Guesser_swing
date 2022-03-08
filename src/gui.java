@@ -10,8 +10,11 @@ class GUI {
 
 
         //Input Dialog
-        JOptionPane.showInputDialog("Obere Nummern Grenze:");
-        JOptionPane.showInputDialog("Untere Nummern Grenze:");
+        String a = JOptionPane.showInputDialog("Obere Nummern Grenze:");
+        String b = JOptionPane.showInputDialog("Untere Nummern Grenze:");
+
+        int c = Integer.parseInt(a);
+        int d = Integer.parseInt(b);
 
 
         //Creating the Frame
